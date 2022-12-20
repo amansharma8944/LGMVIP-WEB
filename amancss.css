@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar{
+    width: 100vw;
+    height: 45px;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top:5px;
+}
+.container{
+
+    width:100vw;
+    display: flex;
+    /* border:1px solid red; */
+}
+
+.input-container{
+
+    /* border:1px solid red; */
+    width:50%;
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+}
+#form1{
+margin-top: 156px;
+
+    /* border:1px solid red; */
+    margin-left:100px;
+
+}
+
+#name1,#email1,#website1,#text1{
+
+
+
+    /* margin: 39px 0px 5px 71px; */
+    font-size: 14px;
+    height: 31px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* #email1{
+
+
+    margin-left: 88px;
+}
+
+#website{
+    margin-left:65px;
+} */
+
+label{
+
+    font-size: 21px;
+    opacity: 0.7;
+}
+
+.mar{
+    margin-left:5px;
+    margin: 38px 0px 5px 76px;
+}
+
+
+#name1{
+/* margin-left:25px; */
+margin: 38px 0px 5px 139px;
+}
+
+#email1{
+    /* margin-left:25px; */
+    margin: 38px 0px 5px 153px;
+    
+}
+#website1{
+    /* margin-left:25px; */
+    margin: 38px 0px 5px 137px;
+}
+
+
+#text1{
+    /* margin-left:25px; */
+    margin: 38px 0px 5px 109px;
+
+}
+
+
+#radio1{
+
+
+    margin-left: -9px;
+    margin-top: 35px;
+}
+#radio2{
+    margin-left: 174px;
+    margin-top: 35px;
+}
+
+#disp{
+    opacity: 1;
+    position: relative;
+    left:166px;
+    
+}
+#disp1{
+    opacity: 1;
+    position: relative;
+    left:293px;
+
+}
+.check{
+
+    margin-left: 37px;
+}
+.checkdiv{
+  margin-left:100px;
+    margin-top:50px;
+}
+
+#skil{
+
+    position: relative;
+    left:-96px;
+}
+
+.btn1{
+
+    margin-top:50px;
+    margin-left:100px;
+    padding: 5px;
+    margin-right:100px;
+    border-radius:5px;
+}
+.btn2{
+    padding:5px;
+   width:60px;
+   border-radius:5px;
+}
+
+
+/* -------------- */
+.output-container{
+    width: 48vw;
+    margin-left: 16px;
+    margin-top: 30px;
+    border-left: 2px dotted;
+}
+
+
+
+
+.content{
+    /* background-color: aqua; */
+    height: 29vh;
+    width: 39vw;
+    margin-left: 85px;
+    border: 3px solid red;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    height:100%;
+    /* border:1px solid black; */
+    width: 400px;
+}
+.imge{
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+
+}
+
+.nameinf{
+
+
+    margin-left:31px;
+    
+    margin-top: 13px;
+
+}
+
+.emailinf{
+
+
+    margin-left:31px;
+    margin-top:15px;
+}
+.skills1{
+    margin-left:31px;
+    margin-top:15px;
+}
+.websiteinf{
+    margin-left:31px;
+    margin-top:15px;
+    
+}
+.gender{
+    margin-left:31px;
+    margin-top:15px;
+}
+
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img{
+
+    height: 150px;
+}
+
+.hiddendiv{
+
+    display: flex;
+    justify-content: space-around;
+    width: 39vw;
+    /* position: relative; */
+    top: 64.5vh;
+    margin-left: 85px;
+    left: 123.5vh;
+    /* margin-top: 5px; */
+    /* border: 3px solid red; */
+    padding: 7px;
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    background: #8080ef;
+    opacity: 0;
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="aman.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Student Enrollment Form</h1>
+    </div>
+    <div class="container">
+      <div class="input-container">
+        <form action="" id="form1">
+          <label for="1name">NAME </label>
+          <input type="text" id="name1" name="name1" class="mar" /><br />
+
+          <!-- <label for="1email">EMAIL</label> -->
+          <label for="email1">Email</label>
+          <input type="email" id="email1" class="mar"  required/><br />
+          <label for="website1">Website</label>
+          <input type="website" id="website1" class="mar" required/><br />
+          <label for="text1">Image Link</label>
+          <input type="text" id="text1" class="mar" required/><br />
+          <label>
+            Gender
+            <label for="radio1" id="disp">MALE</label>
+            <label for="radio2" id="disp1"> FEMALE</label>
+            <input
+              type="radio"
+              id="radio1"
+              value="Male"
+              class="gender"
+              name="radioo"
+              required
+            />
+            <input
+              type="radio"
+              id="radio2"
+              class="gender"
+              value="Female"
+              name="radioo"
+            />
+          </label>
+
+          <br />
+          <div class="checkdiv">
+            <label for="" id="skil">Skills</label>
+            <input
+              type="checkbox"
+              name="checkbox1"
+              class="check"
+              id="checkbox1"
+              value="java"
+            />
+            <label for="checkbox1">Java</label>
+            <input
+              type="checkbox"
+              name="checkbox2"
+              class="check"
+              id="checkbox2"
+              value="HTML"
+            />
+            <label for="checkbox2">HTML</label>
+            <input
+              type="checkbox"
+              name="checkbox3"
+              class="check"
+              id="checkbox3"
+              value="CSS"
+            />
+            <label for="checkbox3">CSS</label>
+          </div>
+
+          <button class="btn1">Enroll Student</button>
+          <button class="btn2">Clear</button>
+        </form>
+      </div>
+
+      <div class="output-container">
+        <div class="flexcol">
+          <div class="hiddendiv">
+
+            <h2 >INFORMATION</h2>
+            <h2>IMAGE</h2>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+
+   
+
+    <script src="aman.js"></script>
+  </body>
+</html>
