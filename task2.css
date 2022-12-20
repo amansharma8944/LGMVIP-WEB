@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+ 
+    background: #d4f2a5;
+    height: 48px;
+    opacity: 1;
+    padding-top: 11px;
+
+}
+
+.navbar h2 {
+    opacity: 4;
+    font-family: cursive;
+    letter-spacing: 11px;
+    margin-left: 50px;}
+
+
+    .main-body{
+        width:100vw;
+        min-height: auto;
+    }
+
+    .btn{
+        background: #8af48a;
+        padding: 9px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-family: cursive;
+        border: 1px solid green;
+        box-shadow: 1px 2px 14px red;
+        margin: 20% 50%;
+        cursor: pointer;
+        width:135px;
+        text-align: center;
+    }
+
+    .io{
+        grid-column-gap: 86px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 148px;
+        margin: 8vh;
+    }
+
+    .users{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid red;
+        box-shadow: 1px 1px 11px red;
+        width: 19vw;
+        padding: 7px;
+        border-radius: 43px;
+    
+    }
+
+    .name{
+        font-family:cursive;
+       font-size: 18px;
+        font-weight: 800;
+    
+    }
+
+    img{
+        border-radius: 178px;
+    }
+
+    .email{
+        font-size: 14px;
+        font-family: cursive;
+    }
+    .io{
+        font-family: cursive;
+    }
+
+    .spinner{
+
+       
+    padding: 19px;
+    border: 3px dotted;
+    width: 18px;
+    border-radius: 101vh;
+    margin: 21% 58%;
+    display: none;
+    font-weight: 900;
+}
+
+body{
+    position: fixed;
+}
+
+    
