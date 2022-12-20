@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: 'Nerko One', cursive;
+     */
+     font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+
+}
+.container{
+
+    width:100vw;
+    height: 100vh;
+}
+#form1{
+    padding: 55px;
+    background: purple;
+}
+.form{
+    margin: 40px auto;
+    width: 54vw;
+    /* background: skyblue; */
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#input-todo-list{
+
+
+  
+    height: 38px;
+    width: 263px;
+    /* text-align: center; */
+    border: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left:5.5px;
+
+
+}
+#btn1{
+    height: 38px;
+    background-color: skyblue;
+    width: 55px;
+    position: relative;
+    left: -66.5px;
+    top:-1px;
+    border: transparent;
+}
+
+.form-maintain-width{
+    position: relative;
+}
+
+.list-shown{
+    position: absolute;
+    width: 100%;
+    /* background: black; */
+    /* height: 59px; */
+    /* transform-origin: bottom; */
+    /* bottom: -59px; */
+    top:144px;
+    color:black;
+}
+
+
+.list-shown{
+color:white;
+
+
+}
+ul{
+    width: 100%;
+}
+li{
+    list-style: none;
+    padding: 14px;
+    display: flex;
+    position:relative;
+    color:black;
+font-weight: 900;
+
+}
+
+li:nth-child(odd){
+    background-color: rgba(254, 255, 255);
+}
+li:nth-child(even){
+    background-color: aqua;
+}
+li:hover{
+
+    background-color: rgb(78, 78, 234);
+}
+
+
+/* //----------------- */
+.fa1{
+    color:white;
+    
+    margin: 0px 22px 0px 5px;
+    cursor: pointer;
+    color:black;
+
+    
+}
+
+.fa2{
+    cursor:pointer;
+    color:black;
+margin-left: 20px;
+}
+.pp{
+
+width: 300px;
+position: relative;
+}
+
+
+.vikasdeep{
+    position: absolute;
+    left: 0px;
+    height: 0.9px;
+    background-color: black;
+    width: 100%;
+    top: 55%;
+}
